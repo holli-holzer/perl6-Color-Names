@@ -18,7 +18,7 @@
     "Color::Names" : "lib/Color/Names.pm6",
     "Color::Names::CSS3" : "lib/Color/Names/CSS3.pm6"
   },
-  "version" : "1.001001",
+  "version" : "1.001003",
   "meta-version" : "0",
   "authors" : [
     "Markus 'holli' Holzer",

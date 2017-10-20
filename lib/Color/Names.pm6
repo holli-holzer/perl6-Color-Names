@@ -7,7 +7,7 @@ method color-data( *@sources )
 
   for @sources.grep({ $_ ∈ @valid }) -> $source
   {
-    my $provider = "Color::Data::$source";
+    my $provider = "Color::Names::$source";
     require ::($provider);
     %h = %h, ::($provider).color-data;
   }
