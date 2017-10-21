@@ -1,3 +1,4 @@
 *.tar.gz
 .ddt/credentials
 .precomp
+.nav-marker-rules
