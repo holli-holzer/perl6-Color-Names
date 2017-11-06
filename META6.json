@@ -2,7 +2,7 @@
   "name" : "Color::Names",
   "source-url" : "https://github.com/holli-holzer/perl6-Color-Names.git",
   "support" : {
-    "source" : "https://github.com/holli-holzer/perl6-Color-Names.git"
+    "source" : "https://github.com/holli-holzer/perl6-Color-Names"
   },
   "perl" : "6.c",
   "depends" : [
