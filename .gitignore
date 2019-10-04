@@ -4,3 +4,4 @@
 .nav-marker-rules
 .idea
 *.iml
+dist.ini
