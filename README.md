@@ -43,6 +43,6 @@ COPYRIGHT AND LICENSE
 
 Copyright © Markus Holzer ( holli.holzer@gmail.com )
 
-License <GPLv3|: [The GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.txt), Version 3, 29 June 2007
+License [BSD-2-Clause](https://opensource.org/licenses/BSD-2-Clause)
 
 This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law.

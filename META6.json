@@ -11,16 +11,16 @@
   "depends": [
     "Color"
   ],
-  "test-depends": [
-    "Test::META"
-  ],
+  "build-depends": [],
+  "test-depends": [],
   "provides": {
     "Color::Names": "lib/Color/Names.pm6",
     "Color::Names::CSS3": "lib/Color/Names/CSS3.pm6",
     "Color::Names::X11": "lib/Color/Names/X11.pm6",
     "Color::Names::XKCD": "lib/Color/Names/XKCD.pm6"
   },
-  "license": "Artistic-2.0",
+  "resources": [],
+  "license": "BSD-2-Clause",
   "tags": [
     "CSS3",
     "CSS",
