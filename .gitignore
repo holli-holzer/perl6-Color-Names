@@ -2,3 +2,5 @@
 .ddt/credentials
 .precomp
 .nav-marker-rules
+.idea
+*.iml
