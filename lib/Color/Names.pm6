@@ -4,7 +4,7 @@ use JSON::Fast;
 
 method color-data( *@sources )
 {
-  my @valid = <X11 XKCD CSS3>;
+  my @valid = <X11 XKCD CSS3 X11-Grey Crayola Resene NCS NBS>;
   my %h;
 
   for @sources.grep({ $_ ∈ @valid }) -> $source
