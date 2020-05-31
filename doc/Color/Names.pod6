@@ -12,8 +12,8 @@ Color::Names - A comprehensive? list of named colors
     # with rgb values and a pretty name
     say Color.Names.color-data("X11");
 
-    # you can mix sets, the later one wins in case of
-    # name clashes
+    # you can mix sets, names are associated with the group
+    # they came from
     say Color.Names.color-data("X11", "XKCD");
 
     use Color::Names::X11;
@@ -26,11 +26,32 @@ Color::Names - A comprehensive? list of named colors
 
 =head1 DESCRIPTION
 
-You can choose from (currently) three color sets:
-X11, CSS3 and the L<xkcd|https://xkcd.com/> set from the L<xkcd color survey|https://xkcd.com/color/rgb/>.
+There are several color sets that can be loaded, separately or in combination.
 
-The X11 and CSS3 sets are basically
- L<identical|https://en.wikipedia.org/wiki/X11_color_names>, except for 4 colors.
+B<CSS3> - (140 colors) L<W3 CSS 3 standard web colors|https://www.w3schools.com/cssref/css_colors.asp>, supported by nearly all browsers and web related software.
+
+
+B<X11> - (412 colors, excluding grey1-grey99) L<The X11 color set|https://www.w3schools.com/colors/colors_x11.asp>. Not as standardized; there are several variations with minor differences. CSS3 colors are very nearly a proper subset. Only 4 colors are in CSS3 that aren't in X11 under the same name.
+
+
+B<X11-Grey> - (99 colors, only-grey) L<The X11 grey scale colors|https://www.w3schools.com/colors/colors_x11.asp>.  (grey1 through grey99). Separated to make it easier to exclude if desired.
+
+
+
+B<XCKD> - (954 color) L<The XKCD color collection|https://www.w3schools.com/colors/colors_xkcd.asp>, collated by Randall Munroe as a result of an extensive L<color survey|https://xkcd.com/color/rgb/> of web citizens.
+
+
+B<NBS> - (267 colors) L<The National Bureau of Standards - ISCC color group|https://en.wikipedia.org/wiki/ISCC%E2%80%93NBS_system>. A series of L<standardized color names published by the NBS|https://www.w3schools.com/colors/colors_nbs.asp>.
+
+
+B<NCS> - (1967 colors) L<The Natural Color System|https://www.w3schools.com/colors/colors_ncs.asp> is the color standard (for interior design, decorating, and painting) in Sweden, Spain, Norway and South Africa. Uses color composition codes to label individual colors rather than names.
+
+
+B<Resene> - (1378 colors) Color names and non-official approximate values to simulate Resene colors in RGB. L<Resene™|https://www.resene.co.nz/> is a prominent paint/decorating retailer in New Zealand. The L<Resene Paints Limited color palettes chart is publicly available on the web|http://www.resene.co.nz/swatches/>.
+
+
+B<Crayola> - (315 colors) L<Crayola™ color names and approximate RGB values|https://www.w3schools.com/colors/colors_crayola.asp> to simulate them in HTML. Crayola™ is a famous color pencil and crayon producer. Their color names are often creative and funny (with no evidence of correlating to web based names). These are not official Crayola™ colors, only RGB approximations.
+
 
 If you know about other lists of name/color pairs in use, please let me know.
 
