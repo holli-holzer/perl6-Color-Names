@@ -1377,7 +1377,7 @@ my constant \COLORS is export( :colors ) =%= %(
   'zorba-RESENE'               => { rgb => [0xA2, 0x95, 0x89], name => ｢Zorba｣,                code => 'BR68-016-056' },
   'zuccini-RESENE'             => { rgb => [0x17, 0x46, 0x2E], name => ｢Zuccini｣,              code => 'G36-054-160' },
   'zumthor-RESENE'             => { rgb => [0xCD, 0xD5, 0xD5], name => ｢Zumthor｣,              code => 'N88-007-210' },
-  'zydeco-RESENE'              => { rgb => [0x20, 0x48, 0x3F], name => ｢Zydeco｣,               code => 'WD008' },
+  'zydeco-RESENE'              => { rgb => [0x20, 0x48, 0x3F], name => ｢Zydeco｣,               code => 'WD008' }
 );
 
 method color-data

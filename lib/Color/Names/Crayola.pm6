@@ -314,7 +314,7 @@ my constant \COLORS is export( :colors ) =%= %(
   'yellow-CRAYOLA'                 => { rgb => [0xFB, 0xE8, 0x70], name => ｢Yellow｣ },
   'yellowgreen-CRAYOLA'            => { rgb => [0xC5, 0xE1, 0x7A], name => ｢Yellow-Green｣ },
   'yelloworange-CRAYOLA'           => { rgb => [0xFF, 0xAE, 0x42], name => ｢Yellow-Orange｣ },
-  'yellowsunshine-CRAYOLA'         => { rgb => [0xFF, 0xF7, 0x00], name => ｢Yellow Sunshine｣ },
+  'yellowsunshine-CRAYOLA'         => { rgb => [0xFF, 0xF7, 0x00], name => ｢Yellow Sunshine｣ }
 );
 
 method color-data
