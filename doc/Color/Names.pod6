@@ -38,7 +38,7 @@ B<X11-Grey> - (99 colors, only-grey) L<The X11 grey scale colors|https://www.w3s
 
 
 
-B<XCKD> - (954 color) L<The XKCD color collection|https://www.w3schools.com/colors/colors_xkcd.asp>, collated by Randall Munroe as a result of an extensive L<color survey|https://xkcd.com/color/rgb/> of web citizens.
+B<XCKD> - (954 colors) L<The XKCD color collection|https://www.w3schools.com/colors/colors_xkcd.asp>, collated by Randall Munroe as a result of an extensive L<color survey|https://xkcd.com/color/rgb/> of web citizens.
 
 
 B<NBS> - (267 colors) L<The National Bureau of Standards - ISCC color group|https://en.wikipedia.org/wiki/ISCC%E2%80%93NBS_system>. A series of L<standardized color names published by the NBS|https://www.w3schools.com/colors/colors_nbs.asp>.

@@ -39,7 +39,7 @@ There are several color sets that can be loaded, separately or in combination.
 
 
 
-***XCKD*** - (954 color) [The XKCD color collection](https://www.w3schools.com/colors/colors_xkcd.asp), collated by Randall Munroe as a result of an extensive [color survey](https://xkcd.com/color/rgb/) of web citizens.
+***XCKD*** - (954 colors) [The XKCD color collection](https://www.w3schools.com/colors/colors_xkcd.asp), collated by Randall Munroe as a result of an extensive [color survey](https://xkcd.com/color/rgb/) of web citizens.
 
 
 ***NBS*** - (267 colors) [The National Bureau of Standards - ISCC color group](https://en.wikipedia.org/wiki/ISCC%E2%80%93NBS_system). A series of [standardized color names published by the NBS](https://www.w3schools.com/colors/colors_nbs.asp).
