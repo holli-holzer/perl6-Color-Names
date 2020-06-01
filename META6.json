@@ -9,7 +9,7 @@
   ],
   "auth": "github:holli-holzer",
   "depends": [
-    "Color"
+    
   ],
   "build-depends": [],
   "test-depends": [],
