@@ -1,7 +1,7 @@
 {
   "name": "Color::Names",
   "description": "A comprehensive? list of named colors",
-  "version": "1.001005",
+  "version": "1.002001",
   "perl": "6.c",
   "authors": [
     "Markus 'holli' Holzer",
@@ -22,7 +22,11 @@
     "Color::Names::Crayola"  : "lib/Color/Names/Crayola.pm6",
     "Color::Names::Resene"   : "lib/Color/Names/Resene.pm6",
     "Color::Names::NCS"      : "lib/Color/Names/NCS.pm6",
-    "Color::Names::NBS"      : "lib/Color/Names/NBS.pm6"
+    "Color::Names::NBS"      : "lib/Color/Names/NBS.pm6",
+    "Color::Names::RAL-CL"   : "lib/Color/Names/RAL-CL.pm6",
+    "Color::Names::RAL-DSP"  : "lib/Color/Names/RAL-DSP.pm6",
+    "Color::Names::FS595B"   : "lib/Color/Names/FS595B.pm6",
+    "Color::Names::FS595C"   : "lib/Color/Names/FS595C.pm6"
   },
   "resources": [],
   "license": "BSD-2-Clause",
@@ -34,6 +38,6 @@
     "Colour",
     "Names"
   ],
-  "api": 1,
+  "api": 2,
   "source-url": "git://github.com/holli-holzer/perl6-Color-Names.git"
 }
